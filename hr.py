@@ -1,24 +1,7 @@
-class Solution:
-    def isPalindrome(self, x: int) -> bool:
-        self.x = x
-        n = x
-        r = 0
-        s = 0
-        while x!=0:
-            r = x%10
-            s = s*10 + r
-            x=x//10
+l = [1,29,97,80,99,45,3,22,12]
+d = {}
+for i,n in enumerate(l):
+        d[n] = i
 
-        if s == n:
-            print("true")
-        else:
-            print("false")
-
-
-if __name__=="__main__":
-    x = int(input())
-    ob = Solution()
-    ob.isPalindrome(x)
-
-
-        
+print(d)
+            
