@@ -1,29 +1,29 @@
-# class Comp:
-#     def __init__(self):
-#         self.r = 0
-#         self.i = 0
-#     def set (self, r, i):
-#         self.r = r
-#         self.i = i
+class Comp:
+    def __init__(self):
+        self.r = 0
+        self.i = 0
+    def set (self, r, i):
+        self.r = r
+        self.i = i
 
-#     def display(self):
-#         print(self.r, "+", self.i,"i")
+    def display(self):
+        print(self.r, "+", self.i,"i")
 
-#     def __add__(self, c):
-#         t = Comp()
-#         t.r = self.r + c.r 
-#         t.i = self.i + c.i 
-#         return t 
+    def __add__(self, c):
+        t = Comp()
+        t.r = self.r + c.r 
+        t.i = self.i + c.i 
+        return t 
 
-# c1 = Comp()
-# c1.set(2,6)
-# c1.display()
-# c2 = Comp()
-# c2.set(3,8)
-# c2.display()
-# c3 = Comp()
-# c3 = c1+c2
-# c3.display()
+c1 = Comp()
+c1.set(2,6)
+c1.display()
+c2 = Comp()
+c2.set(3,8)
+c2.display()
+c3 = Comp()
+c3 = c1+c2
+c3.display()
 
 #Program 2
 # class Pastry:

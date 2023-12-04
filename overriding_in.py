@@ -6,7 +6,7 @@ class Attendance:
             return True
         else:
             return False
-    def __getitem__(self):
+    def __getitem__(self,sub):
         return self.att[sub]
     def __str__(self):
         return "Sequence contain subject & attendance "
